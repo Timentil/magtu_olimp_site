@@ -1,1 +1,3 @@
-# magtu_olimp_site
+# MGTU Olimpics site
+
+## markup_exanple.html - пример разметки
