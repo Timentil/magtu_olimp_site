@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>MGTU Olimp</title>
 </head>
+
 <body>
-    
+    <!-- Модальное окно для регистрации -->
+
+    <!-- <button onclick="window['registration-id'].showModal()">Регистрация</button> -->
+
+    <dialog class="registration" id="registration-id" aria-label="modal for registration">
+        <div class="wrapper-modal">
+            <h3 class="registration-title" aria-label="registration title">Окно регистрации</h3>
+            <form method="dialog" class="registration-form" aria-label="registration form">
+                <input type="text" class="form-input" placeholder="Введите имя" aria-label="first name input">
+                <input type="text" class="form-input" placeholder="Введите фамилию" aria-label="second name input">
+                <input type="email" class="form-input" placeholder="Укажите адрес электронной почты" aria-label="email input">
+                <input type="password" class="form-input" placeholder="Придумайте пароль" aria-label="password input">
+                <button>Зарегистрироваться</button>
+            </form>
+        </div>
+    </dialog>
+
+    <!-- Модальное окно для регистрации -->
 </body>
+
 </html>

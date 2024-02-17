@@ -1,0 +1,30 @@
+.wrapper-modal {
+    width: min(550px, 100%);
+}
+
+.registration {
+    background-image: linear-gradient(170deg, black, #050661);
+    width: min(999px, 100%);
+    height: min(999px, 100%);
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* .registration::backdrop {
+
+} */
+
+.registration-title {
+    color: var(--text-color-white-blue);
+}
+
+.registration-form {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid-column-gap:10px;
+}
+
+.form-input {
+    width: min(550px, 100%);
+}
